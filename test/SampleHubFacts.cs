@@ -11,5 +11,11 @@ namespace API.Tests
 			var hub = new SampleHub();
 			Assert.NotNull(hub);
 		}
+		
+		[Fact]
+		public void FailingTest()
+		{
+			Assert.True(true);
+		}
 	}
 }
