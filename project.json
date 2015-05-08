@@ -9,7 +9,11 @@
         "Microsoft.AspNet.StaticFiles": "1.0.0-beta4",
         "Kestrel": "1.0.0-beta4",
         "xunit": "2.1.0-*",
-        "xunit.runner.dnx": "2.1.0-*"
+        "xunit.runner.dnx": "2.1.0-*",
+        "Microsoft.AspNet.SignalR.Server": "3.0.0-beta4",
+        "Microsoft.AspNet.WebSockets.Server": "1.0.0-beta4",
+        "Microsoft.Framework.Logging": "1.0.0-beta4",
+        "Microsoft.Framework.Logging.Console": "1.0.0-beta4"
     },
 
     "commands": {
@@ -24,15 +28,16 @@
     },
 
     "exclude": [
-    "wwwroot",
-    "node_modules",
-    "bower_components"
-  ],
+        "wwwroot",
+        "node_modules",
+        "bower_components"
+    ],
+    
     "publishExclude": [
-    "node_modules",
-    "bower_components",
-    "**.xproj",
-    "**.user",
-    "**.vspscc"
-  ]
+        "node_modules",
+        "bower_components",
+        "**.xproj",
+        "**.user",
+        "**.vspscc"
+    ]
 }
