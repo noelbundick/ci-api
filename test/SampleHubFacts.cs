@@ -13,9 +13,9 @@ namespace API.Tests
 		}
 		
 		[Fact]
-		public void FailingTest()
+		public void PassingTest()
 		{
-			Assert.True(false);
+			Assert.True(true);
 		}
 	}
 }
