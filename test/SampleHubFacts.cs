@@ -13,9 +13,18 @@ namespace API.Tests
 		}
 		
 		[Fact]
-		public void FailingTest()
+		public void PassingTest()
 		{
 			Assert.True(true);
+		}
+		
+		[Fact]
+		public void AnotherPassingTest()
+		{
+			var x = 3;
+			var y = 5;
+			var z = x + y;
+			Assert.Equal(8, z);
 		}
 	}
 }
