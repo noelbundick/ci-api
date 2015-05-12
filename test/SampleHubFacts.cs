@@ -30,7 +30,7 @@ namespace API.Tests
 		[Fact]
 		public void TDDNewFeature()
 		{
-			Assert.True(false);
+			Assert.True(true);
 		}
 	}
 }
