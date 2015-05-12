@@ -26,5 +26,11 @@ namespace API.Tests
 			var z = x + y;
 			Assert.Equal(8, z);
 		}
+		
+		[Fact]
+		public void TDDNewFeature()
+		{
+			Assert.True(false);
+		}
 	}
 }
